@@ -1,0 +1,46 @@
+body {
+    background: #f4f4f4;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.banner {
+    background: #a770ef;
+    background: -webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+    background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+}
+
+.mycontainer {
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    background-color: lightblue;
+    z-index: 2;
+    overflow: hidden;
+    border-right: 2px solid lightslategrey;
+}
+
+.myitem {
+    width: 50vw;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+}
+
+.myitem > h1 {
+    margin: 2rem;
+    color: lightseagreen;
+}
+
+.myitem > p {
+    color: black;
+    font-size: 1.2rem; 
+    margin: 2rem;
+    text-align: justify;
+}
+
+#otherpart {
+    transition: 50ms;
+    transition-timing-function: ease;
+}
