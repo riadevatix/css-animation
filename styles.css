@@ -41,7 +41,7 @@ body {
 }
 
 #otherpart {
-    transition: 400ms;
+    transition: 1.5s;
      /* transition-timing-function: ease; */
     transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
     transform: translateX(400px) translateY(-400px) rotate(30deg) skewY(-20deg) scale(1.6);
