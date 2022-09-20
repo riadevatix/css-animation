@@ -20,7 +20,7 @@ body {
     border-right: 2px solid lightslategrey;
     transition: 1s;
      /* transition-timing-function: ease; */
-    transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+    transition-timing-function: cubic-bezier(.24,.77,.37,.91) /*cubic-bezier(0.25,0.1,0.25,1) */ ;
 }
 
 .myitem {
@@ -44,8 +44,8 @@ body {
 }
 
 #otherpart {
-    transition: 1.5s;
+    transition: 900ms;
      /* transition-timing-function: ease; */
-    transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+    transition-timing-function: /*cubic-bezier(0.25,0.1,0.25,1);*/ cubic-bezier(.24,.77,.37,.91);
     transform: translateX(400px) translateY(-400px) rotate(30deg) skewY(-20deg) scale(1.6);
 }
