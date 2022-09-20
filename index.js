@@ -24,9 +24,8 @@ document.addEventListener("scroll", function (e) {
     return;
   }
   const w = mappedWidth();
-  console.log(w);
-  container.style.width = `${w}vw`;
-  container.style.transform = `scale(${w > 0 ? 1 : 0})`;
+  container.style.width = `${w}%`;
+  // container.style.transform = `scale(${w > 0 ? 1 : 0})`;
   items.style.transform = applyTransform();
 });
 

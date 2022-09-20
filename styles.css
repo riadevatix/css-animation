@@ -11,6 +11,7 @@ body {
 }
 
 .mycontainer {
+    will-change: width, height;
     position: fixed;
     width: 50%;
     height: 100vh;
@@ -18,7 +19,7 @@ body {
     z-index: 2;
     overflow: hidden;
     border-right: 2px solid lightslategrey;
-    transition: 1s;
+    transition: 1.5s;
      /* transition-timing-function: ease; */
     transition-timing-function: cubic-bezier(.24,.77,.37,.91) /*cubic-bezier(0.25,0.1,0.25,1) */ ;
 }
@@ -44,7 +45,7 @@ body {
 }
 
 #otherpart {
-    transition: 900ms;
+    transition: 1.5s;
      /* transition-timing-function: ease; */
     transition-timing-function: /*cubic-bezier(0.25,0.1,0.25,1);*/ cubic-bezier(.24,.77,.37,.91);
     transform: translateX(400px) translateY(-400px) rotate(30deg) skewY(-20deg) scale(1.6);
