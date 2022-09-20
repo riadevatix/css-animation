@@ -18,6 +18,9 @@ body {
     z-index: 2;
     overflow: hidden;
     border-right: 2px solid lightslategrey;
+    transition: 1s;
+     /* transition-timing-function: ease; */
+    transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
 }
 
 .myitem {
